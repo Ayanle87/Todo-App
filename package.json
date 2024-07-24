@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Ayanle87.github.io/Todo-App",
+  "homepage": "https://ayanle87.github.io/Todo-App",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
