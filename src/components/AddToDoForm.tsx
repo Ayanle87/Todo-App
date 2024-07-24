@@ -1,10 +1,10 @@
-import { useState } from "react"
+import React, { useState} from "react"
 
 interface AddToDoForm{
     onSubmit:(title:string) => void;
 }
 
-export default function AddToForm ({onSubmit}:AddToDoFormProps)
+export default function AddToForm ({onSubmit}:AddToDoForm)
 {
 const [input,setInput] = useState("");
 
@@ -15,7 +15,7 @@ function handleSubmit(e: React.FormEvent<HTMLFormElement>){
         return;
 
     onSubmit(input)
-    setInput("");
+    setInput("")
 
 }
 

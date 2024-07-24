@@ -1,4 +1,5 @@
 import TodoItem from "./components/TodoItem";
+import { Todo } from "./types/todos";
 
 interface TodoListProps {
     todos: Todo [];
